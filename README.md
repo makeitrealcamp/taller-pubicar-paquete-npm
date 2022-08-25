@@ -525,6 +525,10 @@ Esto es todo por este taller, espero fuera de utilidad para ti.
 Te invitamos a compartir por redes sociales, tu primer paquete npm para que el mundo se entere de tus conocimientos.
 
 PD: Si quieres etiquetarnos, nos encantaría 🙈 @makeitrealcamp
+- [Twitter](https://twitter.com/makeitrealcamp)
+- [Facebook](https://www.facebook.com/makeitrealcamp)
+- [Instagram](https://www.instagram.com/makeitrealcamp/)
+- [Linkedin](https://www.linkedin.com/school/make-it-real-camp/)
 
 #### Resultados finales referencia
 
