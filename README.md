@@ -50,7 +50,7 @@ cd npm-profile-card/
 
 ### 2. Estructura y setup del proyecto
 
-Vamos a definir la estructura que llevara nuestro proyecto, sera similar a esta:
+Vamos a definir la estructura que llevara nuestro proyecto, será similar a esta:
 
 ```bash
 npm-profile-card
@@ -112,11 +112,11 @@ Para esto vamos a la terminal y ejecutamos los siguientes comandos:
 npm install boxen chalk
 ```
 
-Al final deberas ver estas dependencias agregadas en el `package.json` (*pueden que las versiones no sean las mismas al momento de realizar tu proceso de instalación*)
+Al final deberás ver estas dependencias agregadas en el `package.json` (*pueden que las versiones no sean las mismas al momento de realizar tu proceso de instalación*)
 
 ![5.png](./img/5.png)
 
-Luego instalamos las dependencias de desarrollo, que nos van a servir para tener un código probado y de buena calidad, entre otras cosas mas.
+Luego instalamos las dependencias de desarrollo, que nos van a servir para tener un código probado y de buena calidad, entre otras cosas más.
 
 ```bash
 npm i -D eslint jest np
@@ -126,13 +126,13 @@ Comprobamos que estas dependencias se agregaron en nuestro manifiesto:
 
 ![6.png](./img/6.png)
 
-Qué hemos instalado?
+¿Qué hemos instalado?
 
-- `boxen`: Un paquete para crear cajas en la terminal
+- `boxen`: un paquete para crear cajas en la terminal
 - `chalk`: librería para darle estilos a nuestra salida por consola
 - `eslint`: herramienta para identificar e informar sobre malos patrones en el código
-- `jest`: Runtime para nuestras pruebas
-- `np`: Excelente paquete para facilitar el proceso de publicación en npm
+- `jest`: runtime para nuestras pruebas
+- `np`: excelente paquete para facilitar el proceso de publicación en npm
 
 **Configurar el linter:**
 
@@ -241,7 +241,7 @@ const output = heading + // data.name + data.handle
                carding // data.labelCard + data.npx
 ```
 
-En este punto si hiciéramos un `console.log` del `output` junto con `boxen` podríamos ver el resultado que esperamos, entonces para ello agregaremos la siguiente linea de código a nuestro archivo:
+En este punto, si hiciéramos un `console.log` del `output` junto con `boxen`, podríamos ver el resultado que esperamos, entonces para ello agregaremos la siguiente linea de código a nuestro archivo:
 
 ```jsx
 console.log(chalk.green(boxen(output, options)))
@@ -332,7 +332,7 @@ Via npx
 $ npx makeitrealcamp
 ```
 
-Stetps
+Steps
 
 1. You can fork in the repo of [makeitrealcamp](https://github.com/makeitrealcamp/npm-profile-card) or just go creating your files.
 
@@ -410,7 +410,7 @@ const output = heading + newline + newline + working + newline + twittering + ne
 console.log(chalk.green(boxen(output, options)))
 ```
 
-5. Create an account in [npm.org](https://www.npmjs.com/), if you already have it, skip this step
+5. Create an account in [npm.org](https://www.npmjs.com/). If you already have it, skip this step
 
 6. Know the version of your package dependency
 ```bash
@@ -435,13 +435,15 @@ $ npx makeitrealcamp
 
 ### 6. Publicar la primera version del paquete en npm
 
-En esta punto publicaremos nuestro paquete. Primero agregaremos un `.npmignore` para que solo se instalen nuestros archivos creados. Necesitamos ejecutar `npm adduser` para iniciar sesión en una cuenta de npm. Luego, podemos ejecutar `npm publish` para publicar nuestro paquete y verlo en npm.
+En esta punto publicaremos nuestro paquete. Primero agregaremos un `.npmignore` para que solo se instalen nuestros archivos creados.
 
-Nota: si realmente desea publicar el paquete de este taller, deberá cambiarle el nombre, ya que las palabras confidenciales ya están tomadas. También puede usar un nombre de paquete con ámbito para esto. **La sugerencia es que el nombre del paquete sea tu username.(`khriztianmoreno`, `makeitrealcamp`, `godDeveloper`)**
+Nota: si realmente se desean publicar el paquete de este taller, tendrán cambiarle el nombre, ya que las palabras confidenciales ya están tomadas. También pueden usar un nombre de paquete con ámbito para esto. **La sugerencia es que el nombre del paquete sea tu username.(`khriztianmoreno`, `makeitrealcamp`, `godDeveloper`)**
+
+Habiendo dicho esto, y si quieren continuar con la publicación del paquete, continuemos.
 
 ![9.png](./img/9.png)
 
-A continuación, vamos a publicar nuestro paquete, pero antes necesitamos que todos nuestros cambios esten rastreados por git:
+Ahora vamos a publicar nuestro paquete, pero antes necesitamos que todos nuestros cambios esten rastreados por git:
 
 ```bash
 git add .
@@ -450,15 +452,15 @@ git commit -am "feat: code base"
 
 El paso siguiente es agregar crear un usuario en el registro especificado de npm, para eso usamos el comando `npm adduser`
 
-Este comando te comenzara a solicitar informacion como el nombre de tu usuario de `npm`
+Este comando te comenzará a solicitar información como el nombre de tu usuario de `npm`
 
 ![10.png](./img/10.png)
 
-Seguido de esto, nos pedirá la constraseña que usamos para crear la cuenta en [npmjs.org](http://npmjs.org) y un email publico que sera visibl
+Seguido de esto, nos pedirá la constraseña que usamos para crear la cuenta en [npmjs.org](http://npmjs.org) y un email publico que será visible
 
 ![11.png](./img/11.png)
 
-El paso siguiente es ingresar el codigo OTP (one-time password) que es posible llegue al correo con el cual creaste la cuenta en [npmjs.org](http://npmjs.org) si aun no has configurado alguna aplicación Two-factor authentication (2FA).
+Se te pedirá ingresar el codigo OTP (one-time password) que es posible llegue al correo con el cual creaste la cuenta en [npmjs.org](http://npmjs.org) si aun no has configurado alguna aplicación Two-factor authentication (2FA).
 
 ![12.png](./img/12.png)
 
@@ -472,7 +474,7 @@ Solo nos falta publicarlo en npm, para eso usaremos el comando:
 npm publish
 ```
 
-La terminal nos arrojara un registro como el siguiente, lo cual indicara que el paquete ha sido publicado de forma correcta.
+La terminal nos arrojará un registro como el siguiente, lo cual indicará que el paquete ha sido publicado de forma correcta.
 
 ![14.png](./img/14.png)
 
@@ -503,19 +505,19 @@ y ahora en vez de ejecutar `npm publish` vamos a ejecutar el script que acabamos
 
 Imagen de referencia.
 
-El paquete comenzara a realizar una serie de tareas necesarias para publicar la actualizacion del paquete.
+El paquete comenzará a realizar una serie de tareas necesarias para publicar la actualización del paquete.
 
 ![18.png](./img/18.png)
 
-Entre estas tareas, tendremos una muy especial, que sera la de agregar un release en github el cual nos va abrir directamente el navegador en la url de nuestro repositorio para crear el release.
+Entre estas tareas, tendremos una muy especial, que será la de agregar un release en github el cual nos va abrir directamente el navegador en la url de nuestro repositorio para crear el release.
 
 ![19.png](./img/19.png)
 
-Completa la información de acuerdo a la actualización realizada y luego clic en el botón de `Publish Release` al final de esto tendremos en nuestro repositorio de github un release creado automáticamente, `https://github.com/YOUR_USER_NAME/npm-profile-card/releases/tag/YOUR_VERSION`
+Tendrás que completar la información de acuerdo a la actualización realizada y luego hacer clic en el botón de `Publish Release` al final de esto tendremos un release creado automáticamente en nuestro repositorio de GitHub, `https://github.com/YOUR_USER_NAME/npm-profile-card/releases/tag/YOUR_VERSION`
 
 ![20.png](./img/20.png)
 
-Ademas de tener una nueva version en nuestro perfil de npmjs.org
+Además de tener una nueva version en nuestro perfil de npmjs.org
 
 ![21.png](./img/21.png)
 
