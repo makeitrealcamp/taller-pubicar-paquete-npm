@@ -29,7 +29,7 @@ Lo primero es ir a [https://github.com/new](https://github.com/new) y crear un n
 Escogeremos las siguientes opciones extras a nuestro repositorio.
 
 - Iniciarlizar `README.md`
-- Agregar ****`.****gitignore` → Node
+- Agregar `.gitignore` → Node
 - Seleccionar una licencia → MIT
 
 ![2.png](./img/2.png)
