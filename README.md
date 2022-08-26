@@ -37,7 +37,7 @@ Escogeremos las siguientes opciones extras a nuestro repositorio.
 Lo siguiente que vamos a realizar el clonar este repositorio en tu computador:
 
 ```bash
-git clone git@github.com:username/npm-profile-card.git
+git clone https://github.com/username/npm-profile-card.git
 ```
 
 Finalmente ubicate en dentro de la carpeta del proyecto mediante la terminal
