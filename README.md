@@ -152,10 +152,11 @@ Al final de estos pasos deberemos tener un archivo en la raiz de nuestro proyect
 
 ![7.png](./img/7.png)
 
-Adicionamos a nuestro manifiesto las siguientes tareas o scripts: (*podemos borrar la tarea `test` por ahora*)
+Adicionamos a nuestro manifiesto las siguientes tareas o scripts: 
 
 ```bash
 "scripts": {
+   "test": "echo \"pending...\"",
    "lint": "eslint --ext .js, bin/card.js",
    "lint:fix": "eslint --ext .js, bin/card.js --fix"
  }
