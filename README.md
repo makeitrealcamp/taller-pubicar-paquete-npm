@@ -321,7 +321,7 @@ console.log(content)
 
 Los usuarios necesitan saber cómo usar nuestro paquete. Podemos facilitárselo con un archivo `README.md` que contiene información sobre nuestro proyecto. Pondremos un ejemplo simple en la parte superior para facilitar su uso.
 
-```markdown
+-------------------------------------------------------------------------------
 # My npm card
 
 Run
@@ -430,7 +430,7 @@ $ npm publish
 ```bash
 $ npx makeitrealcamp
 ```
-```
+-------------------------------------------------------------------------------
 
 ### 6. Publicar la primera version del paquete en npm
 
